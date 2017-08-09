@@ -1,0 +1,100 @@
+APACHE HTTP SERVER
+
+Run-time Loadable MPMs
+Multiple MPMs can now be built as loadable modules at compile time. The MPM of choice can be configured at run time via LoadModule directive.
+Event MPM
+The Event MPM is no longer experimental but is now fully supported.
+Asynchronous support
+Better support for asynchronous read/write for supporting MPMs and platforms.
+Per-module and per-directory LogLevel configuration
+The LogLevel can now be configured per module and per directory. New levels trace1 to trace8 have been added above the debug log level.
+Per-request configuration sections
+<If>, <ElseIf>, and <Else> sections can be used to set the configuration based on per-request criteria.
+General-purpose expression parser
+A new expression parser allows to specify complex conditions using a common syntax in directives like SetEnvIfExpr, RewriteCond, Header, <If>, and others.
+KeepAliveTimeout in milliseconds
+It is now possible to specify KeepAliveTimeout in milliseconds.
+NameVirtualHost directive
+No longer needed and is now deprecated.
+Override Configuration
+The new AllowOverrideList directive allows more fine grained control which directives are allowed in .htaccess files.
+Config file variables
+It is now possible to Define variables in the configuration, allowing a clearer representation if the same value is used at many places in the configuration.
+Reduced memory usage
+Despite many new features, 2.4.x tends to use less memory than 2.2.x.
+
+
+
+
+
+NGINX
+
+O nginx 1.9.11 suportará a carga de módulos dinâmicos. Esta funcionalidade permitirá a modificação do core do servidor em runtime sem precisar derrubar o serviço.
+
+
+
+
+
+WORDPRESS
+
+Em homenagem a vocalista de jazz Sarah Vaughan, o WordPress 4.7 Vaughan está pronto para seus usuários.
+
+Leia nosso artigo sobre o que você deve verificar antes de apertar o botão de atualização
+
+Entre as mudanças e aprimoramentos, estão:
+
+1. Novo tema padrão
+
+wordpress 4.7 - nova tema padrão
+
+A nova versão do WordPress traz um novo padrão de tema – o Twenty Seventeen. O curioso deste tema (que difere dos demais temas padrões já lançados) é que este tem como foco principal sites voltado para negócios.
+
+O tema até mesmo vem com um conteúdo para iniciantes para ajudar novos usuários a configurar seus sites WordPress. O conteúdo mostra desde como colocar informações da empresa em uma widget até um menu com ícones de mídias sociais.
+
+Ele também tem imagens grandes de destaque, tipografia nítida e uma abordagem de design voltado para o mobile.
+
+O novo tema padrão traz um frontend customizável com várias seções. É possível personalizar com widgets, menu sociais, logo, cores personalizadas e muito mais.
+
+2. Suporte para cabeçalhos com vídeo
+
+wordpress 4.7 - cabeçalho com vídeo
+
+O tema Twenty Seventen será o primeiro tema padrão com suporte para cabeçalhos de vídeo.
+
+Você pode adicionar e utilizar seus próprios vídeos no formato mp4 ou também é possível inserir a url de vídeos do Youtube e Vimeo.
+
+Já existem muitos temas premium que permitem que usuários adicionem vídeos em seus cabeçalhos.
+
+3. Fluidez na configuração de tema
+
+wordpress 4.7 - configuração de tema fluido
+
+Outra melhoria que vem com WordPress 4.7 é a fluidez de trabalho ao configurar tema e site. O usuário terá no customizador uma visão mais ampla de temas instalados, busca por temas melhorada e configurações diretamente do customizador do tema.
+
+4. Prévia de CSS personalizado
+
+O WordPress 4.7 também permite que você adicione CSS personalizado diretamente do customizador de tema. Vale ressaltar que seu CSS customizado será específico ao tema que você está visualizando previamente.
+
+A prévia em tempo real permite que você trabalhe de forma mais ágil sem a necessidade de ficar atualizando a página a cada nova modificação.
+
+5. Controle de idioma para usuários
+
+A nova atualização do WordPress permite que usuários troquem o idioma do administrador do perfil de usuário deles, desta forma, cada usuário pode escolher o idioma que preferir.
+
+Por que isso? Quando você instala WordPress em outro idiomas, na atual versão do WordPress, todos usuários vêem a interface do administrador na mesma língua.
+
+6. Prévia de thumbnail para arquivos de PDF
+
+wordpress 4.7 - prévia de thumbnail
+
+Outra melhoria vinda com a atualização do WordPress tem a ver com arquivos em pdf. O WordPress 4.6 mostra o ícone do arquivo em pdf ao fazer o upload.
+
+Já no WordPress 4.7 mostra a prévia do thumbnail da primeira página do documento em pdf ao ser feito o upload na biblioteca de mídia. Também mostrará prévias de thumbnail na página de anexo do arquivo em pdf. Dessa forma, fica mais fácil para o usuário distinguir os arquivos.
+
+7. Melhorias no editor de texto
+
+wordpress 4.7 - editor de texto
+
+Uma das áreas do WordPress que usuários passam mais tempo é, obviamente, no editor de post. Afinal, é lá que todos os conteúdos do site são criados. Este espaço é extremamente importante e em todas as novas versões, o WordPress faz algumas melhorias.
+
+Uma das mudanças que virão no WordPress 4.7 é o que os ícones de parágrafo e selecionador de cabeçalho estarão no top da barra do menu. Não existirá mais o botão de sublinhado e os botões de tachado e botões de linha horizontal também mudarão de lugar.
